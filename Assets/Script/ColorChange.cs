@@ -5,23 +5,25 @@ using UnityEngine;
 public class ColorChange : MonoBehaviour
     
 {
-    public Texture ODS7;
-    public Texture ODS14;
-    public Material Sky7;
-    public void Red()
+    public Texture IMG;
+    public Texture INFO1;
+    //public Texture INFO2;
+   // public Material Sky7;
+    public void Img()
     {
-        GetComponent<Renderer>().material.color = Color.white;
-        GetComponent<Renderer>().material.mainTexture = ODS7;
-        RenderSettings.skybox = default;
+        
+        GetComponent<Renderer>().material.mainTexture = IMG;
+      //  RenderSettings.skybox = default;
     }
- public void Blue()
+ public void Info1()
     {
-        GetComponent<Renderer>().material.color = Color.blue;
-        GetComponent<Renderer>().material.mainTexture = ODS14;
-        RenderSettings.skybox = Sky7;
+        
+        GetComponent<Renderer>().material.mainTexture = INFO1;
+        //RenderSettings.skybox = Sky7;
     }
- public void Black()
+ /*public void Info2()
     {
-        GetComponent<Renderer>().material.color = Color.black;
-    }
+        //GetComponent<Renderer>().material.color = Color.black;
+        GetComponent<Renderer>().material.mainTexture = INFO2;
+    }*/
 }
