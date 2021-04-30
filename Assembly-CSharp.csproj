@@ -190,6 +190,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\Script\ColorChange.cs" />
+    <Compile Include="Assets\Script\DebugRay.cs" />
     <Compile Include="Assets\Script\MoveCardBoard.cs" />
     <Compile Include="Assets\Script\PositionTeleport.cs" />
     <None Include="Assets\Display room\Shaders\Glass.shader" />
