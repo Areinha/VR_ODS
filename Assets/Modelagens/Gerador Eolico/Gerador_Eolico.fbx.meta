@@ -3,7 +3,22 @@ guid: 6fbd7ca7811b108489fea56f70561933
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material Branco
+    second: {fileID: 2100000, guid: a2ecdb2ec4757d94a859d99ccee689cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material Branco.001
+    second: {fileID: 2100000, guid: 6b7c42cfebc9ed54fab8a74955d4f74e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material Branco.002
+    second: {fileID: 2100000, guid: 98455174df5476144976619dbf4a08bf, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -62,7 +77,7 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0

@@ -189,11 +189,13 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+    <Compile Include="Assets\Script\Change_Scenario.cs" />
     <Compile Include="Assets\Script\ColorChange.cs" />
     <Compile Include="Assets\Script\DebugRay.cs" />
     <Compile Include="Assets\Script\MoveCardBoard.cs" />
     <Compile Include="Assets\Script\PositionTeleport.cs" />
     <Compile Include="Assets\Script\Raycaster.cs" />
+    <Compile Include="Assets\Script\Rotacao_Gerador_Eolico.cs" />
     <None Include="Assets\Display room\Shaders\Glass.shader" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\Imagens_ODS\ODS 7 - Energia\Links Legais.txt" />
@@ -211,6 +213,7 @@
     <None Include="Assets\Display room\READ ME.txt" />
     <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
     <None Include="Assets\Display room\Shaders\Glass ASE.shader" />
+    <None Include="Assets\Display room\Sky\Skyboxes\Cloudy Summer Day Skybox\CloudySummerDaySkybox_Info.txt" />
     <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
     <None Include="Assets\GoogleVR\Demos\Shaders\HelloVR\HelloVRUnlitGrayscaleToColor.shader" />
     <None Include="Assets\Display room\Shaders\wood_ground.shader" />
