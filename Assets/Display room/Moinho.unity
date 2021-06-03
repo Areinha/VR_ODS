@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.56003386, g: 0.6275927, b: 0.7047328, a: 1}
+  m_IndirectSpecularColor: {r: 0.5598326, g: 0.6273866, b: 0.70447975, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -146,7 +146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2758.6729
+      value: 1624.5825
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_LocalPosition.x
@@ -154,11 +154,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 49.57
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 484.57
+      value: 478.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_LocalRotation.w
@@ -191,7 +191,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c7efa0f3a68a45e49bdd6314e30546ae, type: 2}
+      objectReference: {fileID: 2100000, guid: 7cd518a55bd6ecf4bb5b8ea0c49cef65, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9c3797c5d4107747a25bfa19fd7ae39, type: 3}
 --- !u!1001 &240944515
@@ -1635,7 +1635,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 2000
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -2209,15 +2209,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4556773208972270, guid: 5d5da19b06b71d74baef1d8c22f634e1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 492.52
+      value: 492.88
       objectReference: {fileID: 0}
     - target: {fileID: 4556773208972270, guid: 5d5da19b06b71d74baef1d8c22f634e1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 42.141
+      value: 46.29
       objectReference: {fileID: 0}
     - target: {fileID: 4556773208972270, guid: 5d5da19b06b71d74baef1d8c22f634e1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 501.88
+      value: 494.86
       objectReference: {fileID: 0}
     - target: {fileID: 4556773208972270, guid: 5d5da19b06b71d74baef1d8c22f634e1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2474,5 +2474,79 @@ PrefabInstance:
       propertyPath: m_Name
       value: Agua Transparente (Temporario)
       objectReference: {fileID: 0}
+    - target: {fileID: 7701849143232252380, guid: b35ca6365c3563245a0bccefa3f89743,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b35ca6365c3563245a0bccefa3f89743, type: 3}
+--- !u!1001 &3570422588251691407
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 485
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 46.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 548
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9990181
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.044304933
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -5.0790005
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445602, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3570422587927445606, guid: 43b37439602e4fd418eac2725ff1f801,
+        type: 3}
+      propertyPath: m_Name
+      value: Agua
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 43b37439602e4fd418eac2725ff1f801, type: 3}
