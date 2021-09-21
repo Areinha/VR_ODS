@@ -253,6 +253,7 @@
     <Compile Include="Assets\Script\Change_Scenario.cs" />
     <Compile Include="Assets\Script\ColorChange.cs" />
     <Compile Include="Assets\Script\DebugRay.cs" />
+    <Compile Include="Assets\Script\MenuInterativo.cs" />
     <Compile Include="Assets\Script\MoveCardBoard.cs" />
     <Compile Include="Assets\Script\PositionTeleport.cs" />
     <Compile Include="Assets\Script\Raycaster.cs" />
