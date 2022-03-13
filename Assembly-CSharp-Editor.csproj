@@ -326,8 +326,14 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
-    <Reference Include="Google.ProtocolBuffers">
-      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+    <Reference Include="Google.VersionHandler">
+      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver">
+      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/1.2.169/Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/1.2.169/Google.JarResolver.dll</HintPath>
     </Reference>
     <Reference Include="Google.PackageManagerResolver">
       <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/1.2.169/Google.PackageManagerResolver.dll</HintPath>
@@ -335,14 +341,8 @@
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/1.2.169/Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/1.2.169/Google.JarResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver">
-      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/ExternalDependencyManager/Editor/1.2.169/Google.IOSResolver.dll</HintPath>
+    <Reference Include="Google.ProtocolBuffers">
+      <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>E:/Users/Desktop/Documents/GitHub/PC_ODS/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>

@@ -296,6 +296,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Script\AnalyticLevelTrack.cs" />
     <Compile Include="Assets\Script\AnalyticStart.cs" />
     <Compile Include="Assets\Script\CameraPC.cs" />
     <Compile Include="Assets\Script\Change_Scenario.cs" />
