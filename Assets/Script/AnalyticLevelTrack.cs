@@ -13,33 +13,34 @@ public class AnalyticLevelTrack : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
 
+
         if (currentScene.name == "Energia_Eolica")
         {
-            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Energia_Eolica");
+            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Energia_Eolica", 1);
             Invoke("ChecarTempoEolica", 30);
         }
 
         else if (currentScene.name == "Hidroeletrica")
         {
-            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Hidroeletrica");
+            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Hidroeletrica", 1);
             Invoke("ChecarTempoHidroeletricaa", 30);            
         }
 
         else if (currentScene.name == "Moinho")
         {
-            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Moinho");
+            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Moinho", 1);
             Invoke("ChecarTempoMoinho", 30);
         }
 
         else if (currentScene.name == "Painel_Solar")
         {
-            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Painel_Solar");
+            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Painel_Solar", 1);
             Invoke("ChecarTempoSolar", 30);            
         }
 
         else if (currentScene.name == "Usina_Nuclear")
         {
-            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Usina_Nuclear");
+            GameAnalytics.NewProgressionEvent(GAProgressionStatus.Start, "Usina_Nuclear", 1);
             Invoke("ChecarTempoNuclear", 30);            
         }
 
